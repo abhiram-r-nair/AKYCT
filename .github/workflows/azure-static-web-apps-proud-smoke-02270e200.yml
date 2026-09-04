@@ -25,7 +25,7 @@ jobs:
           app_location: "/"       # root folder with index.html
           api_location: ""        # no API
           output_location: "."    # static files are already here
-          skip_app_build: true    # skip npm build
+          skip_app_build: true    # skip npm/Oryx build
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
