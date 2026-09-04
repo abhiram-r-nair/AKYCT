@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A202C"/>
+      <stop offset="100%" stop-color="#0B0F17"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="40%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FEF08A"/>
+    </linearGradient>
+  </defs>
+  
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="22" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" stroke-dasharray="2 3" opacity="0.6"/>
+  
+  <path d="M18 38 C18 45, 46 45, 46 38 C42 41.5, 22 41.5, 18 38 Z" fill="url(#goldGrad)"/>
+  <path d="M28 42 L26 47 L38 47 L36 42 Z" fill="url(#goldGrad)"/>
+  <ellipse cx="32" cy="47" rx="8" ry="2" fill="url(#goldGrad)"/>
+  
+  <path d="M32 15 C37 23, 39 29, 36 34 C33 37, 31 37, 28 34 C25 29, 27 23, 32 15 Z" fill="url(#flameGrad)"/>
+  <path d="M32 22 C34 26, 35 29, 33 32 C32 33, 31 33, 30 32 C29 29, 30 26, 32 22 Z" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="32" cy="52" r="2.5" fill="#10B981"/>
+</svg>
